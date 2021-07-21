@@ -45,6 +45,15 @@ function User() {
           </ul>
         </div>
       </div>
+      <p className="user-text">
+        Link para o repositório com o código:{' '}
+        <a
+          className="user-link"
+          href="https://github.com/VitorBisterso/desafio-sensedia/"
+        >
+          https://github.com/VitorBisterso/desafio-sensedia/
+        </a>
+      </p>
     </>
   );
 

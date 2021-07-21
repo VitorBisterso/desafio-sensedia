@@ -60,4 +60,8 @@
   .user-details .user-title {
     text-align: center;
   }
+
+  .user-container p:last-of-type {
+    text-align: center;
+  }
 }
