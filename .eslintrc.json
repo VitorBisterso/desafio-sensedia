@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "jest/globals": true
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "jest"
+  ],
+  "rules": {
+    "jsx-a11y/href-no-hash": ["off"],
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "prettier/prettier": "warn",
+    "no-unused-vars": "warn",
+    "no-console": "warn"
+  }
+}
