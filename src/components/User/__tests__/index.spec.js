@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import User from '../index';
 
@@ -14,9 +14,9 @@ jest.mock('react-router-dom', () => ({
 it('renders correctly', () => {
   const tree = renderer
     .create(
-      <BrowserRouter>
+      <HashRouter>
         <User />
-      </BrowserRouter>,
+      </HashRouter>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();

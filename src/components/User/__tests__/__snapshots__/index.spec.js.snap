@@ -15,7 +15,7 @@ exports[`renders correctly 1`] = `
     Você ainda não está logado com nenhuma conta. Clique
     <a
       className="user-link"
-      href="/"
+      href="#/"
       onClick={[Function]}
     >
       aqui
