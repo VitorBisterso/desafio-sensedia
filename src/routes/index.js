@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import { allRoutes } from './routes';
+import routes from './routes';
 
 const Routes = () => (
   <Switch>
-    {allRoutes.map(route => {
+    {routes.map(route => {
       const { name, Component, path, isExact } = route;
       return (
         <Route exact={isExact} path={path} key={name}>
