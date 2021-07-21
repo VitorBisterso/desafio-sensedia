@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="user-container"
+>
+  <p
+    className="user-title"
+  >
+    Calma lá, pessoa!
+  </p>
+  <p
+    className="user-text"
+  >
+    Você ainda não está logado com nenhuma conta. Clique
+    <a
+      className="user-link"
+      href="/"
+      onClick={[Function]}
+    >
+      aqui
+    </a>
+    para ser redirecionado à pagina de login.
+  </p>
+</div>
+`;
