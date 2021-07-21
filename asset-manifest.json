@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/desafio-sensedia/static/css/main.1a596265.chunk.css",
-    "main.js": "/desafio-sensedia/static/js/main.f889574b.chunk.js",
-    "main.js.map": "/desafio-sensedia/static/js/main.f889574b.chunk.js.map",
+    "main.css": "/desafio-sensedia/static/css/main.b372b16d.chunk.css",
+    "main.js": "/desafio-sensedia/static/js/main.ab671874.chunk.js",
+    "main.js.map": "/desafio-sensedia/static/js/main.ab671874.chunk.js.map",
     "runtime-main.js": "/desafio-sensedia/static/js/runtime-main.bc9b756e.js",
     "runtime-main.js.map": "/desafio-sensedia/static/js/runtime-main.bc9b756e.js.map",
-    "static/js/2.0b89caee.chunk.js": "/desafio-sensedia/static/js/2.0b89caee.chunk.js",
-    "static/js/2.0b89caee.chunk.js.map": "/desafio-sensedia/static/js/2.0b89caee.chunk.js.map",
+    "static/js/2.2654db37.chunk.js": "/desafio-sensedia/static/js/2.2654db37.chunk.js",
+    "static/js/2.2654db37.chunk.js.map": "/desafio-sensedia/static/js/2.2654db37.chunk.js.map",
     "index.html": "/desafio-sensedia/index.html",
-    "static/css/main.1a596265.chunk.css.map": "/desafio-sensedia/static/css/main.1a596265.chunk.css.map",
-    "static/js/2.0b89caee.chunk.js.LICENSE.txt": "/desafio-sensedia/static/js/2.0b89caee.chunk.js.LICENSE.txt"
+    "static/css/main.b372b16d.chunk.css.map": "/desafio-sensedia/static/css/main.b372b16d.chunk.css.map",
+    "static/js/2.2654db37.chunk.js.LICENSE.txt": "/desafio-sensedia/static/js/2.2654db37.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bc9b756e.js",
-    "static/js/2.0b89caee.chunk.js",
-    "static/css/main.1a596265.chunk.css",
-    "static/js/main.f889574b.chunk.js"
+    "static/js/2.2654db37.chunk.js",
+    "static/css/main.b372b16d.chunk.css",
+    "static/js/main.ab671874.chunk.js"
   ]
 }
