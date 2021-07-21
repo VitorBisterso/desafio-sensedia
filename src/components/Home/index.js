@@ -7,20 +7,31 @@ import clientId from '../../config/clientId';
 import './styles.css';
 
 function Home() {
-  const [redirect, setRedirect] = useState(false);
+  const [userObj, setUserObj] = useState();
   const [hasError, setHasError] = useState(false);
 
   const responseGoogle = response => {
     if (response.error) {
       setHasError(true);
     } else {
-      setRedirect(true);
+      setUserObj(response.profileObj);
     }
   };
 
-  const renderContent = () =>
-    redirect ? (
-      <Redirect to="/user" />
+  const renderContent = () => {
+    const parseUserObj = () => ({
+      Email: userObj.email,
+      img: userObj.imageUrl,
+      Nome: userObj.name,
+    });
+
+    return userObj ? (
+      <Redirect
+        to={{
+          pathname: '/user',
+          value: parseUserObj(),
+        }}
+      />
     ) : (
       <div className="home-button">
         <GoogleLogin
@@ -32,6 +43,7 @@ function Home() {
         />
       </div>
     );
+  };
 
   const renderError = () =>
     hasError ? (
